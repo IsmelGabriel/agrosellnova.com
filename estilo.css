@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', Sans-serif;
+    font-weight: 200%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.menu-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em; 
+    color: white;
+    font-weight: 700;
+}
+
+/* CD7A10 - 327C28 */
+.top-bar {
+    background-color: #327C28;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+    margin-right: 30px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+
+
+.search-bar button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #23A026;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    margin-left: auto;
+    border: all;
+    border-radius: 5px;
+}
+
+.notification {
+    margin-left: 25px;
+}
+
+.user {
+    margin-left: 15px;
+}
+
+/* Segunda barra para el menú de navegación */
+.menu-bar {
+    margin: 0 0px;
+    background-color: #22525D;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar ul li {
+    margin: 0 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-bar ul li a:hover {
+    color: #ced4da;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.image-info-section {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-text {
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #26525D;
+    color: white;
+    width: 100%;
+}
